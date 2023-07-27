@@ -123,12 +123,22 @@ button {
 @media screen and (max-width: 800px) {
     main {
         width: 90%;
-        max-height: 40rem;
         min-width: 0;
     }
     .summary {
         padding: 1rem;
     }
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        background-image: url("./images/pattern-background-mobile.svg");
+    }
+
+    main {
+        max-height: 40rem;
+    }
+    
 }
 
 .attribution {
