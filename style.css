@@ -13,10 +13,9 @@
 
 body {
     font-family: "Red Hat Display", serif;
-    background-color: white;
 
+    
     margin: 0;
-
     height: 100vh;
     width: 100vw;
 
@@ -26,6 +25,9 @@ body {
 
     background: url("./images/pattern-background-desktop.svg") no-repeat;
     background-color: hsl(225, 100%, 94%);
+
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
 }
 
 main {
@@ -39,6 +41,12 @@ main {
     border-bottom-right-radius: var(--card-radius);
 }
 
+h1 {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    margin: 0;
+}
+
 .hero-img {
     width: 100%;
     border-top-left-radius: var(--card-radius);
@@ -46,7 +54,37 @@ main {
 }
 
 .summary {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.plan {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
     padding: 1rem;
+    margin-block: 1rem;
+    border-radius: 1rem;
+
+    background-color: hsl(225, 100%, 94%);
+}
+
+.plan-freq {
+    font-weight: 700;
+    color: hsl(223, 47%, 23%);
+}
+.plan p {
+    margin: .5rem;
+}
+.plan a {
+    margin-left: auto;
+}
+
+
+button {
+    padding: .5rem;
+    font-weight: 700;
 }
 
 .attribution {
