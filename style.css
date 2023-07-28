@@ -34,7 +34,7 @@ main {
     width: 30%;
     min-width: 25rem;
 
-    height: 90%;
+    height: 85%;
     max-height: 45rem;
     text-align: center;
     border-radius: var(--card-radius);
@@ -56,7 +56,7 @@ h1 {
 .summary {
     flex-grow: 1;
     min-height: 25rem;
-    padding: 2rem;
+    padding: 0 2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -138,7 +138,6 @@ button {
     main {
         max-height: 40rem;
     }
-    
 }
 
 .attribution {
